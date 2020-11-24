@@ -1,0 +1,42 @@
+com/example/halofarms/adapter/DateAdapter.java
+ com.example.halofarms.adapter.DateAdapter
+ com.example.halofarms.adapter.DateAdapter$MyViewHolder
+com/example/halofarms/adapter/StringAdapter.java
+ com.example.halofarms.adapter.StringAdapter
+ com.example.halofarms.adapter.StringAdapter$MyViewHolder
+com/example/halofarms/activity/InsertDataActivity.java
+ com.example.halofarms.activity.InsertDataActivity
+com/example/halofarms/activity/MainActivity.java
+ com.example.halofarms.activity.MainActivity
+ com.example.halofarms.activity.MainActivity$1
+ com.example.halofarms.activity.MainActivity$2
+com/example/halofarms/activity/MapsActivity.java
+ com.example.halofarms.activity.MapsActivity
+ com.example.halofarms.activity.MapsActivity$1
+com/example/halofarms/Field.java
+ com.example.halofarms.Field
+com/example/halofarms/adapter/MainActivityAdapter.java
+ com.example.halofarms.adapter.MainActivityAdapter
+ com.example.halofarms.adapter.MainActivityAdapter$MyViewHolder
+com/example/halofarms/Point.java
+ com.example.halofarms.Point
+com/example/halofarms/MyDialogFragment.java
+ com.example.halofarms.MyDialogFragment
+ com.example.halofarms.MyDialogFragment$1
+ com.example.halofarms.MyDialogFragment$1$1
+ com.example.halofarms.MyDialogFragment$1$1$1
+ com.example.halofarms.MyDialogFragment$2
+ com.example.halofarms.MyDialogFragment$3
+ com.example.halofarms.MyDialogFragment$4
+ com.example.halofarms.MyDialogFragment$5
+ com.example.halofarms.MyDialogFragment$6
+ com.example.halofarms.MyDialogFragment$7
+ com.example.halofarms.MyDialogFragment$DateCallback
+ com.example.halofarms.MyDialogFragment$FieldCallback
+com/example/halofarms/adapter/AnalyzedFieldAdapter.java
+ com.example.halofarms.adapter.AnalyzedFieldAdapter
+ com.example.halofarms.adapter.AnalyzedFieldAdapter$MyViewHolder
+com/example/halofarms/BuildConfig.java
+ com.example.halofarms.BuildConfig
+com/example/halofarms/FieldList.java
+ com.example.halofarms.FieldList
