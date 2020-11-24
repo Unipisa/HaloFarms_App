@@ -13,3 +13,6 @@ Per supportare l'agricoltore in queste misurazioni e durante la coltivazione, l'
 L'applicazione si trova in HaloFarms.
 
 Inoltre, è stato scritto un prototipo di programma desktop in Java che permette la gestione del database, presente in HaloFarmsServer.
+
+## Demo ##
+![grab-landing-page](https://github.com/Unipisa/HaloFarms_App/blob/main/demo.gif)
