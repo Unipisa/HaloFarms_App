@@ -39,6 +39,7 @@ import com.example.halofarms.Point;
 import com.example.halofarms.R;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -297,8 +298,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             // convert name in GPS coordinates
             LatLng mapPlace = new LatLng(addresses.get(0).getLatitude(),
                     addresses.get(0).getLongitude());
-            // move camera over address
-            googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(mapPlace, 18f));
+            // move camera over address.
+            googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(
+                    mapPlace, 18));
+
+            //googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(mapPlace, 18f));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -974,8 +978,12 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                                 e.printStackTrace();
                             }
                             // move camera over address
+                            googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(
+                                    position, 18));
+                            /*
                             googleMap.moveCamera(CameraUpdateFactory
                                     .newLatLngZoom(position, 18f));
+                             */
                             googleMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
                             // error getting position, come back to MainActivity
                         } else {
@@ -997,7 +1005,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 LocationManager manager = (LocationManager)
                         getSystemService(Context.LOCATION_SERVICE);
                 // if gps is off open settings
-                if (!manager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+                if (!Objects.requireNonNull(manager)
+                        .isProviderEnabled(LocationManager.GPS_PROVIDER)) {
                     startActivity(new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS));
                 }
                 // show gps user location

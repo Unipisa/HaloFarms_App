@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\feffe\\Desktop\\tirocinio\\Halofarms\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+            "outputFile": "C:\\Users\\feffe\\Desktop\\HaloFarms_App\\HaloFarms\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\feffe\\.gradle\\caches\\transforms-2\\files-2.1\\a662a09f936ef9769e962d90fad0478e\\material-1.2.1\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",

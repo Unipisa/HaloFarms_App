@@ -2037,7 +2037,6 @@ id listMode
 id list_item
 id logo
 id main_tos_and_pp
-id map
 id map_name_recycler_view
 id map_spinner
 id mark_button
@@ -2190,7 +2189,6 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
-id switchImage
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2233,7 +2231,6 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
-id toggleClickability
 id top
 id topPanel
 id top_level_view
@@ -2246,8 +2243,6 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
-id transparencySeekBar
-id transparency_text
 id triangle
 id trouble_signing_in
 id trouble_signing_in_possible_fixes
@@ -2385,7 +2380,6 @@ layout fui_register_email_layout
 layout fui_welcome_back_email_link_prompt_layout
 layout fui_welcome_back_idp_prompt_layout
 layout fui_welcome_back_password_prompt_layout
-layout ground_overlay_demo
 layout map_name
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\feffe\\Desktop\\tirocinio\\Halofarms\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-af\\values-af.xml",
+            "outputFile": "C:\\Users\\feffe\\Desktop\\HaloFarms_App\\HaloFarms\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-af\\values-af.xml",
             "map": [
                 {
                     "source": "C:\\Users\\feffe\\.gradle\\caches\\transforms-2\\files-2.1\\00a2f9009d332c8b1187a270435bdde5\\jetified-play-services-base-17.3.0\\res\\values-af\\values.xml",

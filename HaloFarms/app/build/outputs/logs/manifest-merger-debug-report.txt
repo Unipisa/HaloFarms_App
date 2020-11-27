@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:2:1-35:12
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] C:\Users\feffe\.gradle\caches\transforms-2\files-2.1\fb87e923bafb220929c1306eb49c7102\jetified-firebase-ui-auth-6.2.0\AndroidManifest.xml:2:1-109:12
 MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\feffe\.gradle\caches\transforms-2\files-2.1\76e5be8c0b8b3d96e6c7dd3b7123d1d0\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-analytics:17.6.0] C:\Users\feffe\.gradle\caches\transforms-2\files-2.1\948d8ce02ea20e31088d463568a46772\jetified-firebase-analytics-17.6.0\AndroidManifest.xml:2:1-9:12
@@ -82,35 +82,35 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\feffe\.gradle\caches\transform
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\feffe\.gradle\caches\transforms-2\files-2.1\57b5ae7b4c1e8222c5e1793edd39aefa\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\feffe\.gradle\caches\transforms-2\files-2.1\3c410805b211f565ddf8d6b49f7dd616\jetified-protolite-well-known-types-17.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\feffe\.gradle\caches\transforms-2\files-2.1\47a9b793fb482438f4facbefe890c2a3\jetified-grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:2:1-35:12
 	package
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:4:5-36
-		INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:4:5-36
+		INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:2:1-35:12
-		INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:2:1-35:12
-		INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:6:5-81
+ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:6:22-78
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:6:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:7:5-79
+ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:7:22-76
 application
-ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:9:5-33:19
+ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:9:5-33:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] C:\Users\feffe\.gradle\caches\transforms-2\files-2.1\fb87e923bafb220929c1306eb49c7102\jetified-firebase-ui-auth-6.2.0\AndroidManifest.xml:15:5-107:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] C:\Users\feffe\.gradle\caches\transforms-2\files-2.1\fb87e923bafb220929c1306eb49c7102\jetified-firebase-ui-auth-6.2.0\AndroidManifest.xml:15:5-107:19
 MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\feffe\.gradle\caches\transforms-2\files-2.1\76e5be8c0b8b3d96e6c7dd3b7123d1d0\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:16:5-24:19
@@ -174,55 +174,55 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\fe
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] C:\Users\feffe\.gradle\caches\transforms-2\files-2.1\cdfea8f3da9d3d8e26bbb73a40c2de98\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:15:9-40
 activity#com.example.halofarms.activity.InsertDataActivity
-ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:16:9-18:15
+ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:16:9-18:15
 	android:name
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:17:13-77
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:17:13-77
 activity#com.example.halofarms.MyDialogFragment
-ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:19:9-20:45
+ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:19:9-20:45
 	tools:ignore
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:20:13-42
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:20:13-42
 	android:name
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:19:19-72
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:19:19-72
 activity#com.example.halofarms.activity.MapsActivity
-ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:21:9-80
+ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:21:9-80
 	android:name
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:21:19-77
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:21:19-77
 activity#com.example.halofarms.activity.MainActivity
-ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:22:9-28:20
+ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:22:9-28:20
 	android:name
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:22:19-77
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:22:19-77
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:24:17-69
+ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:26:27-74
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:30:9-32:52
+ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:30:9-32:52
 	android:value
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:32:13-49
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:32:13-49
 	android:name
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml:31:13-58
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml:31:13-58
 uses-sdk
-INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] C:\Users\feffe\.gradle\caches\transforms-2\files-2.1\fb87e923bafb220929c1306eb49c7102\jetified-firebase-ui-auth-6.2.0\AndroidManifest.xml:8:5-10:41
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] C:\Users\feffe\.gradle\caches\transforms-2\files-2.1\fb87e923bafb220929c1306eb49c7102\jetified-firebase-ui-auth-6.2.0\AndroidManifest.xml:8:5-10:41
 MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\feffe\.gradle\caches\transforms-2\files-2.1\76e5be8c0b8b3d96e6c7dd3b7123d1d0\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:7:5-9:41
@@ -379,16 +379,16 @@ MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\fef
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\feffe\.gradle\caches\transforms-2\files-2.1\3c410805b211f565ddf8d6b49f7dd616\jetified-protolite-well-known-types-17.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\feffe\.gradle\caches\transforms-2\files-2.1\47a9b793fb482438f4facbefe890c2a3\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\feffe\.gradle\caches\transforms-2\files-2.1\47a9b793fb482438f4facbefe890c2a3\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\feffe\Desktop\tirocinio\Halofarms\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\feffe\Desktop\HaloFarms_App\HaloFarms\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] C:\Users\feffe\.gradle\caches\transforms-2\files-2.1\fb87e923bafb220929c1306eb49c7102\jetified-firebase-ui-auth-6.2.0\AndroidManifest.xml:12:5-79
 MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\feffe\.gradle\caches\transforms-2\files-2.1\76e5be8c0b8b3d96e6c7dd3b7123d1d0\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:13:5-79
