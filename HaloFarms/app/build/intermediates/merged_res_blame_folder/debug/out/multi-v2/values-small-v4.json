@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\feffe\\Desktop\\HaloFarms_App\\HaloFarms\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "/Users/fedehsq/Desktop/HaloFarms_App/HaloFarms/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\feffe\\.gradle\\caches\\transforms-2\\files-2.1\\a662a09f936ef9769e962d90fad0478e\\material-1.2.1\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "/Users/fedehsq/.gradle/caches/transforms-2/files-2.1/a662a09f936ef9769e962d90fad0478e/material-1.2.1/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
