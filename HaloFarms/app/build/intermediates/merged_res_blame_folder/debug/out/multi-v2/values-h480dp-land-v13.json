@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/fedehsq/Desktop/HaloFarms_App/HaloFarms/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+            "outputFile": "C:\\Users\\us3r\\Desktop\\HaloFarms_app\\HaloFarms\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/fedehsq/.gradle/caches/transforms-2/files-2.1/a662a09f936ef9769e962d90fad0478e/material-1.2.1/res/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+                    "source": "C:\\Users\\us3r\\.gradle\\caches\\transforms-2\\files-2.1\\fce964e4db6e9be043333bce0f84b692\\material-1.2.1\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

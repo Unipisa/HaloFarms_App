@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/fedehsq/Desktop/HaloFarms_App/HaloFarms/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "C:\\Users\\us3r\\Desktop\\HaloFarms_app\\HaloFarms\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "/Users/fedehsq/.gradle/caches/transforms-2/files-2.1/a662a09f936ef9769e962d90fad0478e/material-1.2.1/res/values-land/values-land.xml",
+                    "source": "C:\\Users\\us3r\\.gradle\\caches\\transforms-2\\files-2.1\\fce964e4db6e9be043333bce0f84b692\\material-1.2.1\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,24,30",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/fedehsq/.gradle/caches/transforms-2/files-2.1/f65e7d690d0436991c66205f0487ed30/appcompat-1.2.0/res/values-land/values-land.xml",
+                    "source": "C:\\Users\\us3r\\.gradle\\caches\\transforms-2\\files-2.1\\e43694ecc51e53385e76269584311f93\\appcompat-1.2.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

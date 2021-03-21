@@ -1311,7 +1311,7 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
-    <string name="maps_api_key" translatable="false">AIzaSyB6lZUgqeNRRnJlGoP-T2utkNYX7GYN7Nc</string>
+    <string name="maps_api_key" translatable="false"/>
     <string name="mark_map">mark</string>
     <string description="Content description for the thumb with the maximum value in a Range slider. [CHAR_LIMIT=NONE]" name="material_slider_range_end">Range end, </string>
     <string description="Content description for the thumb with the minimum value in a Range slider. [CHAR_LIMIT=NONE]" name="material_slider_range_start">Range start, </string>

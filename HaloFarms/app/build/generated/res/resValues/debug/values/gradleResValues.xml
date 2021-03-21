@@ -4,6 +4,6 @@
     <!-- Automatically generated file. DO NOT MODIFY -->
 
     <!-- Value from default config. -->
-    <string name="maps_api_key" translatable="false">AIzaSyB6lZUgqeNRRnJlGoP-T2utkNYX7GYN7Nc</string>
+    <string name="maps_api_key" translatable="false"></string>
 
 </resources>
