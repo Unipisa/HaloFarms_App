@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "799567528615",
-    "firebase_url": "https://primahalofarms-5024a.firebaseio.com",
-    "project_id": "primahalofarms-5024a",
-    "storage_bucket": "primahalofarms-5024a.appspot.com"
+    "project_number": "831008907263",
+    "firebase_url": "https://halofarms-1ced9-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "halofarms-1ced9",
+    "storage_bucket": "halofarms-1ced9.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:799567528615:android:e9fe775fdced94d4f95182",
+        "mobilesdk_app_id": "1:831008907263:android:c54a289c4d7bea54e691ca",
         "android_client_info": {
-          "package_name": "com.example.halofarms"
+          "package_name": "it.unipi.halofarms"
         }
       },
       "oauth_client": [
         {
-          "client_id": "799567528615-vt7vi8k3nvchhd91auid4jkf1eaks6ks.apps.googleusercontent.com",
+          "client_id": "831008907263-6m84q1vftsv8c1vc6qrtkcogpenf3lgm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.unipi.halofarms",
+            "certificate_hash": "55559d6fd86f73027cd84c315b5f9a21782b6e43"
+          }
+        },
+        {
+          "client_id": "831008907263-1p94qu3of51cbdfdgfg2ojkkhp0qsekq.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCvGdBXdtX3R4gXb1PXp1saaqxhjessJss"
+          "current_key": "AIzaSyArbVjTPGcQDQM-xPG_PEMpAUk6n1Ep3_0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "799567528615-vt7vi8k3nvchhd91auid4jkf1eaks6ks.apps.googleusercontent.com",
+              "client_id": "831008907263-1p94qu3of51cbdfdgfg2ojkkhp0qsekq.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -1,16 +1,33 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\us3r\\Desktop\\HaloFarms_app\\HaloFarms\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+            "outputFile": "it.unipi.halofarms.app-mergeDebugResources-88:/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\us3r\\.gradle\\caches\\transforms-2\\files-2.1\\ee6acb6149d7e4a8812d29c3e74d6256\\jetified-firebase-ui-auth-6.2.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "/home/verdemar/.gradle/caches/transforms-3/f6e829b70df03deff01240614c3dd251/transformed/preference-1.2.0/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
+                    }
+                },
+                {
+                    "source": "/home/verdemar/.gradle/caches/transforms-3/f8020d537b2b0b1116c7a297978b9ba7/transformed/jetified-firebase-ui-auth-8.0.2/res/values-sw360dp-v13/values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
                         "startOffsets": "55,125,186,247,302,356,414",
                         "endColumns": "69,60,60,54,53,57,56",
                         "endOffsets": "120,181,242,297,351,409,466"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "127,197,258,319,374,428,486",
+                        "endColumns": "69,60,60,54,53,57,56",
+                        "endOffsets": "192,253,314,369,423,481,538"
                     }
                 }
             ]
