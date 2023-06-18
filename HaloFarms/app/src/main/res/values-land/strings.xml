@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="yes">yes</string>
+    <string name="no">No</string>
+    <string name="zone_icon">Zone\'s icon</string>
+    <string name="my_position">My position</string>
+    <string name="choose_mode">Choose your mode</string>
+    <string name="name">Name</string>
+    <string name="to_be_analyzed">To be analyzed</string>
+    <string name="do_not_analyze">Do not analyze</string>
+    <string name="analyzed">Analyzed</string>
+    <string name="try_again">Registration failed, try again</string>
+    <string name="add_new_values">Add new values</string>
+    <string name="do_you_want_to_delete">Do you want to delete</string>
+    <string name="close_the_sheet">Close the sheet</string>
+    <string name="Fields">Fields</string>
+    <string name="new_map">New map</string>
+</resources>

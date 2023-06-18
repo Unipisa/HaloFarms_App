@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yes">Oui</string>
+    <string name="no">No</string>
+    <string name="zone_icon">Icône de la zone</string>
+    <string name="my_position">De ma position</string>
+    <string name="choose_mode">Choisissez votre mode</string>
+    <string name="name">Nom</string>
+    <string name="to_be_analyzed">A analyser</string>
+    <string name="do_not_analyze">Ne pas analyser</string>
+    <string name="analyzed">Analysé</string>
+    <string name="try_again">L\'enregistrement a échoué, réessayez</string>
+    <string name="add_new_values">Ajouter de nouvelles valeurs</string>
+    <string name="do_you_want_to_delete">Voulez-vous supprimer</string>
+    <string name="close_the_sheet">Fermer la feuille</string>
+    <string name="Fields">Domaines</string>
+    <string name="new_map">Nouvelle carte</string>
+    <string name="from">de</string>
+    <string name="address">D\'une dresse</string>
+    <string name="or">ou</string>
+    <string name="How_do_you_want_to_draw_your_field">Comment vous voulez dessiner votre champ</string>
+    <string name="warning_choose_menu">Warning: the heatmaps are built with last added values</string>
+    <string name="Map">Map</string>
+    <string name="heatmap">HeatMap</string>
+    <string name="points">Points</string>
+</resources>
