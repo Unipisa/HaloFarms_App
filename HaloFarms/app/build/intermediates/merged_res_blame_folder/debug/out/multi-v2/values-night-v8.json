@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "it.unipi.halofarms.app-mergeDebugResources-88:/values-night-v8/values-night-v8.xml",
+            "outputFile": "it.unipi.halofarms.app-mergeDebugResources-3:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/verdemar/.gradle/caches/transforms-3/a08187184e23fc09b94ed5b805c5505e/transformed/material-1.4.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/home/verdemar/caches/transforms-3/41bac6c117ffca39a1e4ba74112ecc6c/transformed/material-1.4.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/verdemar/.gradle/caches/transforms-3/75cf410454fc8d68ea38ae9909e8850f/transformed/appcompat-1.6.1/res/values-night-v8/values-night-v8.xml",
+                    "source": "/home/verdemar/caches/transforms-3/c5d788364b3adcdefd12222a92611de4/transformed/appcompat-1.6.1/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

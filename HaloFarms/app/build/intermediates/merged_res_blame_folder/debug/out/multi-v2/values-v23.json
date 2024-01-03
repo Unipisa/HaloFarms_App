@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "it.unipi.halofarms.app-mergeDebugResources-88:/values-v23/values-v23.xml",
+            "outputFile": "it.unipi.halofarms.app-mergeDebugResources-3:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/verdemar/.gradle/caches/transforms-3/e9438962a1008d6561181c2f2c026577/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "200"
-                    },
-                    "to": {
-                        "startLines": "50",
-                        "startColumns": "4",
-                        "startOffsets": "3232",
-                        "endLines": "52",
-                        "endColumns": "12",
-                        "endOffsets": "3377"
-                    }
-                },
-                {
-                    "source": "/home/verdemar/.gradle/caches/transforms-3/a08187184e23fc09b94ed5b805c5505e/transformed/material-1.4.0/res/values-v23/values-v23.xml",
+                    "source": "/home/verdemar/caches/transforms-3/41bac6c117ffca39a1e4ba74112ecc6c/transformed/material-1.4.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -42,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/verdemar/.gradle/caches/transforms-3/75cf410454fc8d68ea38ae9909e8850f/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
+                    "source": "/home/verdemar/caches/transforms-3/c5d788364b3adcdefd12222a92611de4/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -50,6 +31,25 @@
                         "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
                         "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
                         "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
+                    }
+                },
+                {
+                    "source": "/home/verdemar/caches/transforms-3/35a25a5b8aed83a80b64957d62f1da33/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "50",
+                        "startColumns": "4",
+                        "startOffsets": "3232",
+                        "endLines": "52",
+                        "endColumns": "12",
+                        "endOffsets": "3377"
                     }
                 }
             ]

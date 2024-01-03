@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.maps.android:maps-compose-utils:2.12.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/caches/transforms-3/f674f481701490c71b0a6429c7f44336/transformed/jetified-maps-compose-utils-2.12.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/caches/transforms-3/f674f481701490c71b0a6429c7f44336/transformed/jetified-maps-compose-utils-2.12.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/caches/modules-2/files-2.1/com.google.maps.android/maps-compose-utils/2.12.0/c2621ba9be7c91b3cfd9b05160a0f75557666812/maps-compose-utils-2.12.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/caches/modules-2/files-2.1/com.google.maps.android/maps-compose-utils/2.12.0/ffd2ca82bb64485e714032feb1fbcea07ca648fe/maps-compose-utils-2.12.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

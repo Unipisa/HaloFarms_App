@@ -17,6 +17,8 @@ import it.unipi.halofarms.R
 // Tag used while interacting with the LOG
 private const val TAG = "RegisterActivity"
 
+//chiave play integrity: c8:f7:8d:31:09:4b:79:5e:26:9a:fd:ed:32:c7:40:2c:6e:0e:ce:42:c4:e7:67:4c:ad:36:55:ff:5b:5b:84:a6
+
 /**
  * This class manages the registration/login of the user. It uses a default view.
  */
@@ -24,9 +26,10 @@ class RegisterActivity: ComponentActivity() {
 
     companion object {
         lateinit var username: String
+        // SharedPreferences file where are stored username and password of the user
+        lateinit var preferences: SharedPreferences
     }
-    // SharedPreferences file where are stored username and password of the user
-    private var preferences: SharedPreferences? = null
+
     // The sign-in launcher
     private val signInLauncher = registerForActivityResult(
         FirebaseAuthUIActivityResultContract()
@@ -39,7 +42,9 @@ class RegisterActivity: ComponentActivity() {
         setContentView(R.layout.activity_register)
         preferences = applicationContext
             .getSharedPreferences("file_key", Context.MODE_PRIVATE)
+
         try {
+
             createSignInIntent()
         } catch (e: Exception) {
             Log.e(TAG, "Cannot complete login", e)
@@ -72,7 +77,7 @@ class RegisterActivity: ComponentActivity() {
         if (result.resultCode == RESULT_OK) {
             val user = FirebaseAuth.getInstance().currentUser
             if (user != null) {
-                preferences?.edit()?.putString("USERNAME", user.email)?.apply()
+                preferences.edit()?.putString("USERNAME", user.email)?.apply()
                 try {
                     username = user.email!!
                 } catch(e: Exception) {

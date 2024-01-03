@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Position permissions -->
-    <uses-permission android:name=".android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name=".android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <uses-feature
@@ -21,6 +21,7 @@
         android:label="@string/appName"
         android:roundIcon="@drawable/tractor"
         android:localeConfig="@xml/locales_config"
+
 
         android:supportsRtl="true"
         android:theme="@style/Theme.HaloFarms"

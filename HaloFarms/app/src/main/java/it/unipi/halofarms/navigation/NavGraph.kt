@@ -1,41 +1,33 @@
 package it.unipi.halofarms.navigation
 
-import androidx.annotation.DrawableRes
-import it.unipi.halofarms.R
-
 /**
- * The bottom bar screens' sealed class
+ * The screens' sealed class
  *
  * @param route Screen's route
- * @param title Screen's title
- * @param icon Screen's icon
  */
-sealed class Navigator(val route : String, val title : String?, @DrawableRes val icon : Int?){
-    object Map : Navigator(route = "map/{mapId}", title = "Map", icon = R.drawable.mappa){
+sealed class ScreenNavigator(val route : String){
+    // Map screen
+    object Map : ScreenNavigator(route = "map/{mapId}/{date}"){
         const val ARG_MAP_ID: String = "mapId"
-        fun route(mapId: String?) = "map/$mapId"
+        const val ARG_DATE: String = "date"
+        fun route(mapId: String?, date: String?) = "map/$mapId/$date"
     }
-    object HeatMap : Navigator(route = "heatmap/{mapId}/{mode}", title = "HeatMap", icon = R.drawable.heatmap){
+    // Heatmap screen
+    object HeatMap : ScreenNavigator(route = "heatmap/{mapId}/{mode}/{date}"){
         const val ARG_MAP_ID: String = "mapId"
         const val ARG_MODE_ID: String = "mode"
-        fun route(mapId: String?, mode: String?) = "heatmap/$mapId/$mode"
+        const val ARG_DATE: String = "date"
+        fun route(mapId: String?, mode: String?, date: String?) = "heatmap/$mapId/$mode/$date"
     }
-}
 
-
-/**
- * The default screens' sealed class
- *
- * @param route Specific route for default screens
- */
-sealed class DefaultNavigation(val route: String) {
-    // The 'Home' screen
-    object Home : DefaultNavigation("home")
-    // The 'Point' screen
-    object Point : DefaultNavigation(route = "point/{pointId}"){
-        const val ARG_POINT_ID: String = "pointId"
-        fun route(pointId: String?) = "point/$pointId"
+    // History screen
+    object History : ScreenNavigator(route = "history/{mapName}"){
+        const val ARG_MAP_ID: String = "mapName"
+        fun route(mapName: String?) = "history/$mapName"
     }
+
+    // Home screen
+    object Home : ScreenNavigator("home")
 }
 
 /**
@@ -43,27 +35,24 @@ sealed class DefaultNavigation(val route: String) {
  * @param route Specific dialog's route
  */
 sealed class Dialog(val route: String){
-    // The 'Add a map' dialog
+
+    // 'Add a map' dialog
     object AddMap : Dialog("addmap")
-    // The 'Delete a map' dialog
+    // 'Delete a map' dialog
     object LongMap : Dialog("longmap/{mapId}"){
         const val ARG_MAP_ID: String = "mapId"
         fun route(mapId: String?) = "longmap/$mapId"
     }
-    // The 'Delete a map' dialog
-    object LongPoint : Dialog("longpoint/{mapId}/{pointId}"){
+    // 'Add values' dialog
+    object PointOptions : Dialog("pointOptions/{pointId}/{mapId}"){
         const val ARG_POINT_ID: String = "pointId"
         const val ARG_MAP_ID: String = "mapId"
-        fun route(pointId: String, mapId: String) = "longPlant/$mapId/$pointId"
+        fun route(pointId: String?, mapId: String?) = "pointOptions/$pointId/$mapId"
     }
-    // The 'Add values' dialog
-    object PointOptions : Dialog("pointOptions/{pointId}"){
-        const val ARG_POINT_ID: String = "pointId"
-        fun route(pointId: String?) = "pointOptions/$pointId"
-    }
-    // The 'Choose heatmap' dialog
-    object ChooseHeatmap : Dialog("mode/{mapId}"){
+    // 'Choose heatmap' dialog
+    object ChooseHeatmap : Dialog("mode/{mapId}/{date}"){
         const val ARG_MAP_ID: String = "mapId"
-        fun route(mapId: String?) = "mode/$mapId"
+        const val ARG_DATE: String = "date"
+        fun route(mapId: String?, date: String?) = "mode/$mapId/$date"
     }
 }

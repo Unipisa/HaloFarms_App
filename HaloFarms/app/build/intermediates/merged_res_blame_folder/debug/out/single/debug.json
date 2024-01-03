@@ -1,254 +1,82 @@
 [
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/layout_single_text_view.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/layout/single_text_view.xml"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/drawable_yellow_round_shape.xml.flat",
+        "source": "it.unipi.halofarms.app-main-7:/drawable/yellow_round_shape.xml"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_ic_baseline_info_24.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/ic_baseline_info_24.xml"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/drawable_black_round_shape.xml.flat",
+        "source": "it.unipi.halofarms.app-main-7:/drawable/black_round_shape.xml"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_ic_baseline_format_list_bulleted_24.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/ic_baseline_format_list_bulleted_24.xml"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/drawable_halofarms_transp.png.flat",
+        "source": "it.unipi.halofarms.app-main-7:/drawable/halofarms_transp.png"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/layout_activity_register.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/layout/activity_register.xml"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/drawable_sar.PNG.flat",
+        "source": "it.unipi.halofarms.app-main-7:/drawable/sar.PNG"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_iconchart.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/iconchart.png"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/layout_activity_register.xml.flat",
+        "source": "it.unipi.halofarms.app-main-7:/layout/activity_register.xml"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_ic_baseline_place_24.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/ic_baseline_place_24.xml"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/drawable_heatmap.png.flat",
+        "source": "it.unipi.halofarms.app-main-7:/drawable/heatmap.png"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_ic_baseline_opacity_24.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/ic_baseline_opacity_24.xml"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/drawable_tractor.png.flat",
+        "source": "it.unipi.halofarms.app-main-7:/drawable/tractor.png"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/drawable_ph.png.flat",
+        "source": "it.unipi.halofarms.app-main-7:/drawable/ph.png"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/layout_number_points_edit_text.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/layout/number_points_edit_text.xml"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/xml_data_extraction_rules.xml.flat",
+        "source": "it.unipi.halofarms.app-main-7:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/ic_launcher_background.xml"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/drawable_history_icon.png.flat",
+        "source": "it.unipi.halofarms.app-main-7:/drawable/history_icon.png"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/xml_data_extraction_rules.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/xml/data_extraction_rules.xml"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/drawable_btn_primary.xml.flat",
+        "source": "it.unipi.halofarms.app-main-7:/drawable/btn_primary.xml"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/layout_set_date_view.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/layout/set_date_view.xml"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/xml_backup_rules.xml.flat",
+        "source": "it.unipi.halofarms.app-main-7:/xml/backup_rules.xml"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_ic_baseline_remove_circle_24.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/ic_baseline_remove_circle_24.xml"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/drawable_ec.PNG.flat",
+        "source": "it.unipi.halofarms.app-main-7:/drawable/ec.PNG"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_ic_baseline_place_16.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/ic_baseline_place_16.xml"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/drawable_provetta64.png.flat",
+        "source": "it.unipi.halofarms.app-main-7:/drawable/provetta64.png"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_ic_baseline_format_list_numbered_24.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/ic_baseline_format_list_numbered_24.xml"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/drawable_mappa.png.flat",
+        "source": "it.unipi.halofarms.app-main-7:/drawable/mappa.png"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/layout_activity_insert_data.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/layout/activity_insert_data.xml"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/drawable_halofarms.png.flat",
+        "source": "it.unipi.halofarms.app-main-7:/drawable/halofarms.png"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_ec.PNG.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/ec.PNG"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/drawable_red_round_shape.xml.flat",
+        "source": "it.unipi.halofarms.app-main-7:/drawable/red_round_shape.xml"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/drawable_cec.PNG.flat",
+        "source": "it.unipi.halofarms.app-main-7:/drawable/cec.PNG"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/xml_backup_rules.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/xml/backup_rules.xml"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/drawable_green_round_shape.xml.flat",
+        "source": "it.unipi.halofarms.app-main-7:/drawable/green_round_shape.xml"
     },
     {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_heatmap.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/heatmap.png"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/mipmap-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/layout_spinner_text_view.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/layout/spinner_text_view.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_green_round_shape.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/green_round_shape.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_halofarms.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/halofarms.png"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/layout_map_name.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/layout/map_name.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/mipmap-xhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_yellow_round_shape.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/yellow_round_shape.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_ic_baseline_eco_24.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/ic_baseline_eco_24.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_ic_baseline_title_24.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/ic_baseline_title_24.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_ic_baseline_add_24.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/ic_baseline_add_24.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_black_round_shape.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/black_round_shape.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/layout_single_edit_text.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/layout/single_edit_text.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/layout_analyzed_field_view.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/layout/analyzed_field_view.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_btn_primary.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/btn_primary.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_medium_language.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/medium_language.png"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/mipmap-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_cec.PNG.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/cec.PNG"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/mipmap-xxxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/layout_activity_maps.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/layout/activity_maps.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/layout_single_image_view.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/layout/single_image_view.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_tractor.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/tractor.png"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_ic_baseline_autorenew_24.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/ic_baseline_autorenew_24.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_mappa.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/mappa.png"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_ph.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/ph.png"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_red_round_shape.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/red_round_shape.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_ic_baseline_calendar_today_24.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/ic_baseline_calendar_today_24.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/layout_activity_main.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/layout/activity_main.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_halofarms_transp.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/halofarms_transp.png"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_list.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/list.png"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_sar.PNG.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/sar.PNG"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/layout_add_map_fragment_layout.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/layout/add_map_fragment_layout.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/xml_locales_config.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/xml/locales_config.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_blue_round_shap.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/blue_round_shap.png"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_square.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/square.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/mipmap-mdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/menu_menu_scrolling_activity_insert_data.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/menu/menu_scrolling_activity_insert_data.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable-v24/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-merged_res-90:/drawable_ic_baseline_crop_landscape_24.xml.flat",
-        "source": "/home/verdemar/.gradle/daemon/7.4/it.unipi.halofarms.app-main-92:/drawable/ic_baseline_crop_landscape_24.xml"
+        "merged": "it.unipi.halofarms.app-merged_res-5:/xml_locales_config.xml.flat",
+        "source": "it.unipi.halofarms.app-main-7:/xml/locales_config.xml"
     }
 ]

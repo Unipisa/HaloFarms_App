@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sar_null">SAR: no elements</string>
+    <string name="ec_null">EC: no elements</string>
+    <string name="cec_null">CEC: no elements</string>
+    <string name="ph_null">PH: no elements</string>
+    <string name="date_null">DATE: no elements</string>
+    <string name="remove_values">Remove values</string>
+    <string name="values">Values</string>
+    <string name="history">History</string>
+    <string name="doing_science">\"Doing science…\"</string>
+    <string name="to_be_analyzed_current_point">Current point: to be analyzed</string>
+    <string name="do_not_analyze_current_point">Do not analyze current point</string>
+    <string name="new_values_added">New values added</string>
+    <string name="added_new_map">Added new map</string>
+    <string name="cannot_find_this_address">Cannot find this address</string>
+    <string name="cannot_add_name_is_null">Cannot add: name is null</string>
+</resources>

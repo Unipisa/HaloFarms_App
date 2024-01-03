@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "it.unipi.halofarms.app-mergeDebugResources-88:/values-v24/values-v24.xml",
+            "outputFile": "it.unipi.halofarms.app-mergeDebugResources-3:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/verdemar/.gradle/caches/transforms-3/75cf410454fc8d68ea38ae9909e8850f/transformed/appcompat-1.6.1/res/values-v24/values-v24.xml",
+                    "source": "/home/verdemar/caches/transforms-3/c5d788364b3adcdefd12222a92611de4/transformed/appcompat-1.6.1/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/verdemar/.gradle/caches/transforms-3/1ffb0bde00759c7c16b93facdf872b6d/transformed/media-1.0.0/res/values-v24/values-v24.xml",
+                    "source": "/home/verdemar/caches/transforms-3/b91dafeba429a637b63971438fd4a756/transformed/media-1.0.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

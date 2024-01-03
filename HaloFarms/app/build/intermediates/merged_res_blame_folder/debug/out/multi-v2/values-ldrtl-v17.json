@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "it.unipi.halofarms.app-mergeDebugResources-88:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "it.unipi.halofarms.app-mergeDebugResources-3:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "/home/verdemar/.gradle/caches/transforms-3/a08187184e23fc09b94ed5b805c5505e/transformed/material-1.4.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "source": "/home/verdemar/caches/transforms-3/41bac6c117ffca39a1e4ba74112ecc6c/transformed/material-1.4.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

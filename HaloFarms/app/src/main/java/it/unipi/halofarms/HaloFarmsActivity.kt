@@ -5,15 +5,23 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.annotation.RequiresApi
-import androidx.compose.material.ExperimentalMaterialApi
-import it.unipi.halofarms.screen.HaloFarmsApp
+import androidx.compose.material3.*
+import it.unipi.halofarms.data.cloud.FirestoreProxy
 
 class HaloFarmsActivity : ComponentActivity() {
+    @RequiresApi(Build.VERSION_CODES.O)
     @OptIn(ExperimentalMaterialApi::class)
-    @RequiresApi(Build.VERSION_CODES.N)
+    @ExperimentalMaterialApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
+            val isFirstRun = FirestoreProxy.sharedPreferences.getBoolean("isFirstRun", true)
+
+            if(isFirstRun){
+                FirestoreProxy().FromCloud()
+                FirestoreProxy.sharedPreferences.edit().putBoolean("isFirstRun", false).apply()
+            }
+
             HaloFarmsApp()
         }
     }

@@ -11,7 +11,6 @@
     <string name="try_again">Registration failed, try again</string>
     <string name="add_new_values">Add new values</string>
     <string name="do_you_want_to_delete">Do you want to delete</string>
-    <string name="close_the_sheet">Close the sheet</string>
     <string name="Fields">Areas</string>
 
 
@@ -28,9 +27,30 @@
     <string name="address">An address</string>
     <string name="or">or</string>
     <string name="How_do_you_want_to_draw_your_field">How do you want to draw your field?</string>
-    <string name="ec_chart" translatable="false">Point\'s ec chart</string>
-    <string name="warning_choose_menu">Warning: the heatmaps are built with last added values</string>
     <string name="Map">Map</string>
     <string name="heatmap">HeatMap</string>
     <string name="points">Points</string>
+    <string name="sar_null">SAR: no elements</string>
+    <string name="ec_null">EC: no elements</string>
+    <string name="cec_null">CEC: no elements</string>
+    <string name="ph_null">PH: no elements</string>
+    <string name="date_null">DATE: no elements</string>
+    <string name="remove_values">Remove values</string>
+    <string name="values">Values</string>
+    <string name="history">History</string>
+    <string name="doing_science">Doing science…</string>
+    <string name="to_be_analyzed_current_point">Current point: to be analyzed</string>
+    <string name="do_not_analyze_current_point">Do not analyze current point</string>
+    <string name="new_values_added">New values added</string>
+    <string name="added_new_map">Added new map</string>
+    <string name="cannot_find_this_address">Cannot find this address</string>
+    <string name="cannot_add_name_is_null">Cannot add: name is null</string>
+    <string name="analyzed_">Analyzed</string>
+    <string name="to_be_analyzed_">To be analyzed</string>
+    <string name="not_analyzed">Not analyzed</string>
+    <string name="maps_api_key">AIzaSyCHpTWIZBF87BIbSY4CZSCnmWJjnYAgktg</string>
+    <string name="is_your_gps_on">Is your GPS on?</string>
+    <string name="choose_your_timestamp">Choose your timestamp</string>
+    <string name="choose_your_heatmap">Choose your heatmap</string>
+    <string name="you_need_internet_for_your_first_run">You need internet for your first run</string>
 </resources>

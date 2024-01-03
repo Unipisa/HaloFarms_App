@@ -1,6 +1,13 @@
 package it.unipi.halofarms.ui.theme
 
-import androidx.compose.runtime.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.Stable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.graphics.Color
 
 private val ColorPalette = HaloFarmsColors(
@@ -51,34 +58,20 @@ class HaloFarmsColors(
     iconInteractiveInactive: Color,
     error: Color
 ) {
-    var homescreen by mutableStateOf(homescreen)
-        private set
-    var brand by mutableStateOf(brand)
-        private set
-    var uiBackground by mutableStateOf(uiBackground)
-        private set
-    var uiBorder by mutableStateOf(uiBorder)
-        private set
-    var uiFloated by mutableStateOf(uiFloated)
-        private set
-    var textPrimary by mutableStateOf(textPrimary)
-        private set
-    var textSecondary by mutableStateOf(textSecondary)
-        private set
-    var textHelp by mutableStateOf(textHelp)
-        private set
-    var textInteractive by mutableStateOf(textInteractive)
-        private set
+    private var homescreen by mutableStateOf(homescreen)
+    private var brand by mutableStateOf(brand)
+    private var uiBackground by mutableStateOf(uiBackground)
+    private var uiBorder by mutableStateOf(uiBorder)
+    private var uiFloated by mutableStateOf(uiFloated)
+    private var textPrimary by mutableStateOf(textPrimary)
+    private var textSecondary by mutableStateOf(textSecondary)
+    private var textHelp by mutableStateOf(textHelp)
+    private var textInteractive by mutableStateOf(textInteractive)
     var iconPrimary by mutableStateOf(iconPrimary)
-        private set
-    var iconSecondary by mutableStateOf(iconSecondary)
-        private set
-    var iconInteractive by mutableStateOf(iconInteractive)
-        private set
-    var iconInteractiveInactive by mutableStateOf(iconInteractiveInactive)
-        private set
-    var error by mutableStateOf(error)
-        private set
+    private var iconSecondary by mutableStateOf(iconSecondary)
+    private var iconInteractive by mutableStateOf(iconInteractive)
+    private var iconInteractiveInactive by mutableStateOf(iconInteractiveInactive)
+    private var error by mutableStateOf(error)
 
     fun update(other: HaloFarmsColors) {
         brand = other.brand

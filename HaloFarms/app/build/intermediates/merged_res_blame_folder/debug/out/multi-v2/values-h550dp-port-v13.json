@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "it.unipi.halofarms.app-mergeDebugResources-88:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "outputFile": "it.unipi.halofarms.app-mergeDebugResources-3:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/home/verdemar/.gradle/caches/transforms-3/a08187184e23fc09b94ed5b805c5505e/transformed/material-1.4.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+                    "source": "/home/verdemar/caches/transforms-3/41bac6c117ffca39a1e4ba74112ecc6c/transformed/material-1.4.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

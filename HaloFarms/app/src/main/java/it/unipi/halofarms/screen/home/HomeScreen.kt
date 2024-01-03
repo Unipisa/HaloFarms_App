@@ -5,11 +5,8 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.FabPosition
-import androidx.compose.material.MaterialTheme
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
-import androidx.compose.material.rememberScaffoldState
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -25,17 +22,12 @@ import androidx.compose.ui.unit.sp
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.MultiplePermissionsState
 import it.unipi.halofarms.R
+import it.unipi.halofarms.data.map.Map
 import it.unipi.halofarms.navigation.Dialog
-import it.unipi.halofarms.navigation.Navigator
-import it.unipi.halofarms.screen.zone.Map
+import it.unipi.halofarms.navigation.ScreenNavigator
 import it.unipi.halofarms.ui.theme.MediumGreen
 import it.unipi.halofarms.util.HomeTitle
 
-/**
- * Implements the Home Screen, which includes the whole field's list
- *
- * @param navigateTo, function that brings the user to a new dialog or a new screen
- */
 @OptIn(ExperimentalPermissionsApi::class)
 @Composable
 fun HomeScreen(
@@ -43,11 +35,7 @@ fun HomeScreen(
     maps: State<List<Map>>,
     navigateTo: (String, Boolean) -> Unit,
 ) {
-    // Scaffold state
-    val scaffoldState = rememberScaffoldState()
-
-    androidx.compose.material.Scaffold(
-        scaffoldState = scaffoldState,
+    Scaffold(
         // Displays the title
         topBar = {
             Column {
@@ -66,20 +54,24 @@ fun HomeScreen(
         },
         // Adds a field
         floatingActionButton = {
-            FloatingActionButton(
+            ExtendedFloatingActionButton(
                 modifier = Modifier.padding(34.dp),
                 onClick = { Dialog.AddMap.route.let { navigateTo(it, false) } },
                 content = {
                     Icon(
                         Icons.Filled.Add,
-                        contentDescription = "Add a zone"
+                        contentDescription = "Add a map"
                     )
-                }
+                    Text(text = "Add map")
+                },
             )
         },
         floatingActionButtonPosition = FabPosition.End,
-        backgroundColor = Color.White
+        containerColor = Color.White
     ) { padding ->
+        if(!locationPermission.allPermissionsGranted){
+            locationPermission.launchMultiplePermissionRequest()
+        }
 
         LazyVerticalGrid(
             columns = GridCells.Fixed(2),
@@ -103,15 +95,15 @@ fun HomeScreen(
                                     if (!locationPermission.allPermissionsGranted) {
                                         locationPermission.launchMultiplePermissionRequest()
                                     } else {
-                                        Navigator.Map
-                                            .route(maps.value[it].name)
+                                        ScreenNavigator.Map
+                                            .route(maps.value[it].name, maps.value[it].date)
                                             .let { navigateTo(it, false) }
                                     }
                                 }
                             )
                         },
                     shape = RoundedCornerShape(8.dp),
-                    elevation = CardDefaults.cardElevation(5.dp)
+                    elevation = CardDefaults.cardElevation(5.dp),
                 ) {
                     Column(
                         Modifier
@@ -133,8 +125,8 @@ fun HomeScreen(
 /**
  * Map view in home screen
  *
- * @param map: current map
- * @param modifier, graphics helper
+ * @param map Current map
+ * @param modifier Graphics helper
  */
 @Composable
 fun MapView(
@@ -147,7 +139,7 @@ fun MapView(
     ) {
         // Zone's icon
         Icon(
-            painter = painterResource(id = R.drawable.ic_baseline_eco_24),
+            painter = painterResource(id = R.drawable.provetta64),
             contentDescription = stringResource(R.string.zone_icon),
             modifier = modifier
                 .align(Alignment.CenterHorizontally)
@@ -156,8 +148,8 @@ fun MapView(
         )
         // Zone's name
         androidx.compose.material.Text(
-            map.name!!,
-            style = MaterialTheme.typography.body1,
+            map.name,
+            style = MaterialTheme.typography.bodySmall,
             modifier = modifier.padding(8.dp)
         )
     }

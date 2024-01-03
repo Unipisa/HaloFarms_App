@@ -6,7 +6,7 @@ import com.google.accompanist.permissions.*
 /**
  * Observes the multiple permissions' states and returns it
  *
- * @return MultiplePermissionsState, the permissions' states
+ * @return MultiplePermissionsState The permissions' states
  */
 @OptIn(ExperimentalPermissionsApi::class)
 @Composable

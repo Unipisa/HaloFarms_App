@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "it.unipi.halofarms.app-mergeDebugResources-88:/values-v26/values-v26.xml",
+            "outputFile": "it.unipi.halofarms.app-mergeDebugResources-3:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "/home/verdemar/.gradle/caches/transforms-3/75cf410454fc8d68ea38ae9909e8850f/transformed/appcompat-1.6.1/res/values-v26/values-v26.xml",
+                    "source": "/home/verdemar/caches/transforms-3/c5d788364b3adcdefd12222a92611de4/transformed/appcompat-1.6.1/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "/home/verdemar/.gradle/caches/transforms-3/f8020d537b2b0b1116c7a297978b9ba7/transformed/jetified-firebase-ui-auth-8.0.2/res/values-v26/values-v26.xml",
+                    "source": "/home/verdemar/caches/transforms-3/7225674d8bb05c90e3ba8604c4fc845b/transformed/jetified-firebase-ui-auth-8.0.2/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,6,10,14",
                         "startColumns": "4,4,4,4",

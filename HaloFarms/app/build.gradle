@@ -2,14 +2,15 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("kotlin-parcelize")
-    id("kotlin-kapt")
+    //id("kotlin-kapt")
+    id("com.google.devtools.ksp")
     id("com.google.gms.google-services")
     id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin")
 }
 
 android {
     namespace 'it.unipi.halofarms'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         // Read the API key from ./secure.properties into R.string.maps_api_key
@@ -23,7 +24,7 @@ android {
 
         applicationId 'it.unipi.halofarms'
         minSdkVersion 21
-        targetSdkVersion 33
+        targetSdkVersion 34
         versionCode 1
         versionName "2.0"
 
@@ -40,11 +41,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = '17'
     }
     buildFeatures {
         compose true
@@ -56,12 +57,6 @@ android {
         resources {
             excludes += '/META-INF/{AL2.0,LGPL2.1}'
         }
-    }
-}
-
-configurations.all {
-    resolutionStrategy.dependencySubstitution {
-        substitute module('org.hamcrest:hamcrest-core:1.1') with module('junit:junit:4.10')
     }
 }
 
@@ -91,16 +86,16 @@ dependencies {
 
     // Accompanist
     implementation "com.google.accompanist:accompanist-systemuicontroller:0.28.0"
-    implementation "com.google.accompanist:accompanist-permissions:0.29.1-alpha"
+    implementation 'com.google.accompanist:accompanist-permissions:0.31.6-rc'
 
     // Constraint Layout
     implementation "androidx.constraintlayout:constraintlayout-compose:1.0.1"
 
     // Firestore
-    implementation "com.google.firebase:firebase-firestore-ktx:24.6.1"
+    implementation "com.google.firebase:firebase-firestore-ktx:24.7.0"
 
     // Firebase
-    implementation platform('com.google.firebase:firebase-bom:31.1.1')
+    implementation platform('com.google.firebase:firebase-bom:32.2.0')
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'com.firebaseui:firebase-ui-auth:8.0.2'
     implementation 'com.google.firebase:firebase-core:21.1.1'
@@ -109,34 +104,41 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics'
 
     // Navigation
-    implementation "androidx.navigation:navigation-compose:2.7.0-alpha01"
+    implementation "androidx.navigation:navigation-compose:2.7.0"
     implementation 'androidx.hilt:hilt-navigation-compose:1.0.0'
-    implementation "androidx.navigation:navigation-fragment-ktx:2.5.3"
-    implementation "androidx.navigation:navigation-ui-ktx:2.5.3"
+    implementation "androidx.navigation:navigation-fragment-ktx:2.7.0"
+    implementation "androidx.navigation:navigation-ui-ktx:2.7.0"
 
     // Maps
     implementation 'com.google.android.gms:play-services-maps:18.1.0'
     implementation 'com.google.maps.android:android-maps-utils:3.4.0'
-    implementation 'com.google.maps.android:maps-compose:2.11.2'
-    implementation 'com.google.maps.android:maps-compose-utils:2.11.2'
-    implementation 'com.google.maps.android:maps-compose-widgets:2.11.2'
+    implementation 'com.google.maps.android:maps-compose:2.12.0'
+    implementation 'com.google.maps.android:maps-compose-utils:2.12.0'
+    implementation 'com.google.maps.android:maps-compose-widgets:2.12.0'
     implementation 'androidx.multidex:multidex:2.0.1'
     implementation 'com.google.android.gms:play-services-location:21.0.1'
-    implementation 'org.testng:testng:7.6.1'
-    implementation 'com.google.android.libraries.places:places:3.1.0'
-
-    // Charty
-    implementation("com.himanshoe:charty:1.0.1")
+    implementation 'org.testng:testng:7.8.0'
+    implementation 'com.google.android.libraries.places:places:3.2.0'
 
     // ZXing
-    implementation 'com.google.zxing:core:3.4.0'
+    implementation 'com.google.zxing:core:3.5.2'
 
     // Preference
-    implementation 'androidx.preference:preference:1.2.0'
-}
+    implementation 'androidx.preference:preference:1.2.1'
 
+    // Room Local DB
+    implementation "androidx.room:room-runtime:2.5.2"
+    implementation "androidx.room:room-ktx:2.5.2"
+    implementation "androidx.compose.runtime:runtime-livedata:1.5.0"
+    annotationProcessor "androidx.room:room-compiler:2.5.2"
+    ksp("androidx.room:room-compiler:2.5.2")
+
+    implementation 'com.google.android.gms:play-services-awareness:19.0.1'
+
+}
+/*
 kapt {
     correctErrorTypes true
-}
+}*/
 
 apply plugin: 'com.google.gms.google-services'

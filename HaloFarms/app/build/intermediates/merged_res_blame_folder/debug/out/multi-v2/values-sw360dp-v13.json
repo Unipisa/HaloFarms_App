@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "it.unipi.halofarms.app-mergeDebugResources-88:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "outputFile": "it.unipi.halofarms.app-mergeDebugResources-3:/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/verdemar/.gradle/caches/transforms-3/f6e829b70df03deff01240614c3dd251/transformed/preference-1.2.0/res/values-sw360dp-v13/values-sw360dp-v13.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "71",
-                        "endOffsets": "122"
-                    }
-                },
-                {
-                    "source": "/home/verdemar/.gradle/caches/transforms-3/f8020d537b2b0b1116c7a297978b9ba7/transformed/jetified-firebase-ui-auth-8.0.2/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "source": "/home/verdemar/caches/transforms-3/7225674d8bb05c90e3ba8604c4fc845b/transformed/jetified-firebase-ui-auth-8.0.2/res/values-sw360dp-v13/values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -28,6 +18,16 @@
                         "startOffsets": "127,197,258,319,374,428,486",
                         "endColumns": "69,60,60,54,53,57,56",
                         "endOffsets": "192,253,314,369,423,481,538"
+                    }
+                },
+                {
+                    "source": "/home/verdemar/caches/transforms-3/87307a14a114bb19efbdb2001d7f316a/transformed/preference-1.2.1/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
                     }
                 }
             ]
