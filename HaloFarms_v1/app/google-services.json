@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "799567528615",
+    "firebase_url": "https://primahalofarms-5024a.firebaseio.com",
+    "project_id": "primahalofarms-5024a",
+    "storage_bucket": "primahalofarms-5024a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799567528615:android:e9fe775fdced94d4f95182",
+        "android_client_info": {
+          "package_name": "com.example.halofarms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799567528615-vt7vi8k3nvchhd91auid4jkf1eaks6ks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvGdBXdtX3R4gXb1PXp1saaqxhjessJss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799567528615-vt7vi8k3nvchhd91auid4jkf1eaks6ks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
