@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "831008907263",
+    "firebase_url": "https://halofarms-1ced9-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "halofarms-1ced9",
+    "storage_bucket": "halofarms-1ced9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "",
+        "android_client_info": {
+          "package_name": "it.unipi.halofarms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.unipi.halofarms",
+            "certificate_hash": ""
+          }
+        },
+        {
+          "client_id": "",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": ""
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yes">Oui</string>
+    <string name="no">No</string>
+    <string name="zone_icon">Icône de la zone</string>
+    <string name="my_position">Ma position</string>
+    <string name="choose_mode">Choisissez votre mode</string>
+    <string name="name">Nom</string>
+    <string name="to_be_analyzed">A analyser</string>
+    <string name="do_not_analyze">Ne pas analyser</string>
+    <string name="analyzed">Analysé</string>
+    <string name="try_again">L\'enregistrement a échoué, réessayez</string>
+    <string name="add_new_values">Ajouter de nouvelles valeurs</string>
+    <string name="do_you_want_to_delete">Voulez-vous supprimer</string>
+    <string name="Fields">Domaines</string>
+    <string name="new_map">Nouvelle carte</string>
+    <string name="from">de</string>
+    <string name="address">Une dresse</string>
+    <string name="or">ou</string>
+    <string name="How_do_you_want_to_draw_your_field">Comment vous voulez dessiner votre champ</string>
+    <string name="Map">"Carte "</string>
+    <string name="heatmap">Carte thermique</string>
+    <string name="points">Points</string>
+    <string name="sar_null">SAR: vide</string>
+    <string name="ec_null">EC: vide</string>
+    <string name="cec_null">CEC: vide</string>
+    <string name="ph_null">PH: vide</string>
+    <string name="date_null">DATE: vide</string>
+    <string name="remove_values">Passe\' valeurs</string>
+    <string name="values">Valeurs</string>
+    <string name="history">Histoire</string>
+    <string name="doing_science">Faire de la science</string>
+    <string name="to_be_analyzed_current_point">Point actuel : à analyser</string>
+    <string name="do_not_analyze_current_point">Ne pas analyser le point actuel</string>
+    <string name="new_values_added">Nouvelles valeurs ajoutées</string>
+    <string name="added_new_map">Ajout d\'une nouvelle carte</string>
+    <string name="cannot_find_this_address">Adresse introuvable</string>
+    <string name="cannot_add_name_is_null">Impossible d\'ajouter : le nom est nul</string>
+    <string name="analyzed_">Analyzed</string>
+    <string name="to_be_analyzed_">To be analyzed</string>
+    <string name="not_analyzed">Not analyzed</string>
+    <string name="is_your_gps_on">Is your GPS on?</string>
+    <string name="choose_your_timestamp">Choose your timestamp</string>
+    <string name="choose_your_heatmap">Choose your heatmap</string>
+</resources>

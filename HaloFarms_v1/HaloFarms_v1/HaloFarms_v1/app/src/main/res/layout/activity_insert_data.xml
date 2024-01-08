@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:errorEnabled="true"
+        android:id="@+id/text_input_layout_electric_conductivity"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:hint="@string/electric_conductivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:startIconDrawable="@drawable/ic_baseline_opacity_24"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="numberDecimal"
+            android:id="@+id/edit_text_electric_conductivity"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <ImageButton
+        android:backgroundTint="@color/transparent"
+        android:id="@+id/info_ec_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/text_input_layout_electric_conductivity"
+        app:layout_constraintBottom_toBottomOf="@id/text_input_layout_electric_conductivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_baseline_info_24"
+        android:layout_marginEnd="8dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:errorEnabled="true"
+        android:id="@+id/text_input_layout_sar"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:hint="@string/sar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_input_layout_electric_conductivity"
+        app:startIconDrawable="@drawable/ic_baseline_opacity_24"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="numberDecimal"
+            android:id="@+id/edit_text_sar"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <ImageButton
+        android:backgroundTint="@color/transparent"
+        android:id="@+id/info_sar_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/text_input_layout_sar"
+        app:layout_constraintBottom_toBottomOf="@id/text_input_layout_sar"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_baseline_info_24"
+        android:layout_marginEnd="8dp"
+        />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:errorEnabled="true"
+        android:id="@+id/text_input_layout_ph"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:hint="@string/pH"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_input_layout_sar"
+        app:startIconDrawable="@drawable/ic_baseline_opacity_24"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="numberDecimal"
+            android:id="@+id/edit_text_ph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <ImageButton
+        android:backgroundTint="@color/transparent"
+        android:id="@+id/info_ph_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/text_input_layout_ph"
+        app:layout_constraintBottom_toBottomOf="@id/text_input_layout_ph"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_baseline_info_24"
+        android:layout_marginEnd="8dp"
+        />
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:errorEnabled="true"
+        android:id="@+id/text_input_layout_cec"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:hint="@string/CEC"
+        app:layout_constraintEnd_toStartOf="@id/info_cec_image_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_input_layout_ph"
+        app:startIconDrawable="@drawable/ic_baseline_opacity_24"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="numberDecimal"
+            android:id="@+id/edit_text_cec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageButton
+        android:backgroundTint="@color/transparent"
+        android:id="@+id/info_cec_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/text_input_layout_cec"
+        app:layout_constraintBottom_toBottomOf="@id/text_input_layout_cec"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_baseline_info_24"
+        android:layout_marginEnd="8dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/save_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_margin="32dp"
+        />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+

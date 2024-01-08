@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#298730</color>
+    <color name="colorPrimaryDark">#1B5E20</color>
+    <color name="colorAccent">#298730</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="orange0">#fff2df</color>
+    <color name="orange1">#ffddb0</color>
+    <color name="orange2">#ffc77d</color>
+    <color name="orange3">#ffaf49</color>
+    <color name="orange4">#ff9e22</color>
+    <color name="orange5">#ff8d00</color>
+    <color name="orange7">#fa8100</color>
+    <color name="orange8">#ee6002</color>
+    <color name="orange9">#e54304</color>
+    <color name="red">#FF0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparentWhite">#B3FFFFFF</color>
+
+    <color name="light_green_A100">#CCFF90</color>
+    <color name="light_green_A200">#B2FF59</color>
+    <color name="light_green_A400">#76FF03</color>
+    <color name="light_green_A700">#64DD17</color>
+
+    <color name="lime_A100">#F4FF81</color>
+    <color name="lime_A200">#EEFF41</color>
+    <color name="lime_A400">#EEFF41</color>
+    <color name="lime_A700">#AEEA00</color>
+
+    <color name="yellow_A100">#FFFF8D</color>
+    <color name="yellow_A200">#FFFF00</color>
+    <color name="yellow_A400">#FFEA00</color>
+    <color name="yellow_A700">#FFD600</color>
+
+    <color name="amber_A100">#FFE57F</color>
+    <color name="amber_A200">#FFD740</color>
+    <color name="amber_A400">#FFC400</color>
+    <color name="amber_A700">#FFAB00</color>
+
+    <color name="orangeA100">#FFD180</color>
+    <color name="orangeA200">#FFAB40</color>
+    <color name="orangeA400">#FF9100</color>
+    <color name="orangeA700">#FF6D00</color>
+
+    <color name="deep_orangeA100">#FF9E80</color>
+    <color name="deep_orangeA200">#FF6E40</color>
+    <color name="deep_orangeA400">#FF3D00</color>
+    <color name="deep_orangeA700">#DD2C00</color>
+
+
+
+
+</resources>
